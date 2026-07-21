@@ -1,0 +1,61 @@
+void main(){
+  
+  String name = "vyshnavi";
+  print(name);
+  String CSE = 'I''m Sathvika';
+  print(CSE);
+  String Cse_boys = "Moomin";
+  print(Cse_boys);
+  
+  int age = 25;
+  print(age);
+  
+  double percentage = 0.05;
+  print(percentage);
+  
+  bool account_active = true;
+  print(account_active);
+  
+//   var price = 500;
+//   price = "500";
+  dynamic price = 500;
+  price = "500";
+  print(price);
+   List<String> std_details = ["Sujith","47","100.0","false"];
+  print(std_details);
+  
+    List<dynamic> Cse_details = ["Sujith",47,100.0,false];
+  print(Cse_details);
+  Cse_details.add('course');
+  print(Cse_details);
+  Cse_details.addAll(['skills', 123, true]);
+  print(Cse_details);
+  Cse_details[0]='rollNo';
+  print(Cse_details);
+  Cse_details[2]=['skills', 123, true];
+  print(Cse_details);
+  print(Cse_details.length);
+  print(Cse_details.remove('rollNo'));
+  print(Cse_details);
+  
+  Set cseA = {
+    'DWDM', 'FLAT', 'CN', 'MS', 'MOOCS', 12,2435
+  };
+  print(cseA);
+  
+  Set<int> iot = {
+     12,2435, 23, 100
+  };
+  print(iot);
+  
+  Map <String,dynamic>student = {
+    'name': 'Rohit',
+    'age' : 30,
+    'course': 'Data Structure'
+  };
+  print(student);
+  
+  
+  
+  
+}
